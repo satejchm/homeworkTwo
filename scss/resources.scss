@@ -1,0 +1,155 @@
+.resource-wrapper {
+  width: 100%;
+  min-height: 100%;
+  //margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $cabin;
+  flex-direction: column;
+  h1 {
+    margin-top: 150px;
+    color: black;
+    font-size: 550%;
+    font-family: $cour;
+  }
+
+  h2 {
+    color: black;
+    font-size: 400%;
+    font-family: $cour;
+  }
+
+  .resource {
+    min-height: 900px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    //margin-top: 25px;
+    color: white;
+
+    .image-holder {
+      min-height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $cabin;
+      flex-direction: column;
+
+      h3 {
+        color: black;
+        font-size: 250%;
+      }
+
+      p {
+        color: black;
+        font-size: 25px;
+      }
+
+      .partner-image {
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        width: 350px;
+        min-height: 350px;
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url(../images/partnership.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+      }
+    }
+
+    .image-holder {
+      min-height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $cabin;
+      flex-direction: column;
+
+      h3 {
+        color: black;
+        font-size: 250%;
+      }
+
+      p {
+        color: black;
+        font-size: 25px;
+      }
+      .adopt-image {
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        width: 350px;
+        min-height: 350px;
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url(../images/adopt.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+      }
+    }
+
+    .image-holder {
+      //width: 100%;
+      min-height: 900px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $cabin;
+      flex-direction: column;
+
+      h3 {
+        color: black;
+        font-size: 250%;
+      }
+
+      p {
+        width: 300px;
+        color: black;
+        font-size: 25px;
+      }
+      .donate-image {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        width: 350px;
+        min-height: 350px;
+        background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          url(../images/donat.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "homeworktwo",
+  "version": "1.0.0",
+  "description": "jquery is fun ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node-sass scss/main.scss css/main.css -w"
+  },
+  "author": "sarah tejchma",
+  "license": "ISC",
+  "devDependencies": {
+    "gitignore": "^0.6.0",
+    "node-sass": "^4.13.1"
+  }
+}

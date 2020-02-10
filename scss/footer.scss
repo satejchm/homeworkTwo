@@ -1,0 +1,37 @@
+.footer-wrapper {
+  margin-top: 50px;
+  width: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/leaves.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .footer {
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: $cabin;
+
+    .copyright {
+      justify-content: center;
+      text-transform: lowercase;
+      color: white;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .footer-wrapper {
+    .footer {
+      flex-direction: column;
+    }
+  }
+}

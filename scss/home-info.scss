@@ -1,0 +1,93 @@
+.home-info-wrapper {
+  width: 100%;
+  min-height: 100%;
+  //margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $cabin;
+
+  .home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin-top: 25px;
+    color: white;
+    .jungle-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 5px;
+      width: 90%;
+      min-height: 750px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.4),
+          rgba(0, 0, 0, 0.4)
+        ),
+        url(../images/jungle.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+
+      .home-info {
+        width: 50%;
+        height: 50%;
+        margin-left: 15px;
+        font-size: 25px;
+
+        h1 {
+          font-family: $cour;
+          margin-bottom: 25px;
+          font-size: 300%;
+        }
+      }
+
+      .button {
+        margin-left: 25%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        background-color: rgb(18, 155, 18);
+        color: white;
+        border-radius: 5px;
+        width: 50%;
+        padding: 5px;
+        margin-top: 35px;
+        font-size: 30px;
+
+        a {
+          text-decoration: none;
+          &:hover {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+
+#home,
+#resources {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-info-wrapper {
+    .home {
+      .button {
+        margin-top: 0px;
+      }
+    }
+  }
+}

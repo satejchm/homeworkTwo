@@ -1,0 +1,1291 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+nav {
+  width: 100%;
+  padding-right: 50px;
+  height: 70px;
+  position: fixed;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/leaves.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Cabin", sans-serif; }
+  nav a {
+    font-size: 105%;
+    color: white;
+    text-decoration: none; }
+    nav a:hover {
+      color: green; }
+  nav #home:hover,
+  nav #resources:hover {
+    color: green; }
+  nav .social {
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px; }
+    nav .social:hover {
+      color: black; }
+
+#logo {
+  padding-left: 50px;
+  width: 40%;
+  color: white;
+  text-align: left;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Courgette", cursive; }
+  #logo .logo-holder {
+    text-align: center;
+    font-size: 160%;
+    padding: 5px;
+    width: 65px;
+    border: 5px double white;
+    padding: 5px;
+    border-radius: 40px; }
+    #logo .logo-holder:hover {
+      color: green;
+      border: 5px double green; }
+
+.content {
+  width: 100%;
+  height: 100%; }
+
+.hero-wrapper {
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/leopard-hero.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/leopard-hero.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/leopard-hero.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/leopard-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white; }
+  .hero-wrapper .hero-info {
+    width: 60%;
+    font-family: "Cabin", sans-serif; }
+    .hero-wrapper .hero-info h1 {
+      font-family: "Courgette", cursive;
+      font-size: 500%; }
+    .hero-wrapper .hero-info h2 {
+      font-size: 200%; }
+    .hero-wrapper .hero-info h3 {
+      font-size: 150%; }
+
+.home-info-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cabin", sans-serif; }
+  .home-info-wrapper .home {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin-top: 25px;
+    color: white; }
+    .home-info-wrapper .home .jungle-image {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 5px;
+      width: 90%;
+      min-height: 750px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/jungle.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jungle.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jungle.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/jungle.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex; }
+      .home-info-wrapper .home .jungle-image .home-info {
+        width: 50%;
+        height: 50%;
+        margin-left: 15px;
+        font-size: 25px; }
+        .home-info-wrapper .home .jungle-image .home-info h1 {
+          font-family: "Courgette", cursive;
+          margin-bottom: 25px;
+          font-size: 300%; }
+      .home-info-wrapper .home .jungle-image .button {
+        margin-left: 25%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-align: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background-color: #129b12;
+        color: white;
+        border-radius: 5px;
+        width: 50%;
+        padding: 5px;
+        margin-top: 35px;
+        font-size: 30px; }
+        .home-info-wrapper .home .jungle-image .button a {
+          text-decoration: none; }
+          .home-info-wrapper .home .jungle-image .button a:hover {
+            color: black; }
+
+#home,
+#resources {
+  color: white;
+  text-decoration: none; }
+  #home:hover,
+  #resources:hover {
+    color: black; }
+
+@media (max-width: 600px) {
+  .home-info-wrapper .home .button {
+    margin-top: 0px; } }
+
+.donate-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cabin", sans-serif; }
+  .donate-wrapper .donate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    min-height: 800px;
+    margin-top: 25px; }
+    .donate-wrapper .donate h1 {
+      font-size: 500%;
+      font-family: "Courgette", cursive; }
+    .donate-wrapper .donate .input {
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      font-size: 35px; }
+      .donate-wrapper .donate .input .namespace {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        width: 60%;
+        height: 50px;
+        margin-left: 10px; }
+      .donate-wrapper .donate .input .donation {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        width: 300px;
+        height: 50px;
+        margin-left: 10px; }
+  .donate-wrapper .button-donate {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #129b12;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none; }
+    .donate-wrapper .button-donate a {
+      text-decoration: none; }
+      .donate-wrapper .button-donate a:hover {
+        color: white; }
+
+.footer-wrapper {
+  margin-top: 50px;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/leaves.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .footer-wrapper .footer {
+    margin: 0 auto;
+    height: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: "Cabin", sans-serif; }
+    .footer-wrapper .footer .copyright {
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      text-transform: lowercase;
+      color: white;
+      font-size: 20px; }
+
+@media (max-width: 600px) {
+  .footer-wrapper .footer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; } }
+
+.adopt-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cabin", sans-serif;
+  margin-bottom: 10px; }
+  .adopt-wrapper h1 {
+    font-family: "Courgette", cursive;
+    font-size: 500%; }
+  .adopt-wrapper h2 {
+    margin-bottom: 25px; }
+  .adopt-wrapper .adopt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    min-height: 100%;
+    margin-top: 25px; }
+    .adopt-wrapper .adopt a {
+      text-decoration: none; }
+    .adopt-wrapper .adopt .adopt-info-amur {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/amur.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/amur.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/amur.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/amur.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .adopt-wrapper .adopt .adopt-info-amur h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .adopt-wrapper .adopt .adopt-info-amur h3,
+      .adopt-wrapper .adopt .adopt-info-amur h4 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: white; }
+      .adopt-wrapper .adopt .adopt-info-amur:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.2))), url(../images/amur.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/amur.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/amur.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)), url(../images/amur.jpg); }
+        .adopt-wrapper .adopt .adopt-info-amur:hover h3,
+        .adopt-wrapper .adopt .adopt-info-amur:hover h4 {
+          display: block; }
+    .adopt-wrapper .adopt .adopt-info-rhino {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/rhino.jfif);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/rhino.jfif);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/rhino.jfif);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/rhino.jfif);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .adopt-wrapper .adopt .adopt-info-rhino h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .adopt-wrapper .adopt .adopt-info-rhino h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: white; }
+      .adopt-wrapper .adopt .adopt-info-rhino:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.2))), url(../images/rhino.jfif);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/rhino.jfif);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/rhino.jfif);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)), url(../images/rhino.jfif); }
+        .adopt-wrapper .adopt .adopt-info-rhino:hover h3 {
+          display: block; }
+    .adopt-wrapper .adopt .adopt-info-orang {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/orang.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/orang.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/orang.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/orang.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .adopt-wrapper .adopt .adopt-info-orang h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .adopt-wrapper .adopt .adopt-info-orang h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: white; }
+      .adopt-wrapper .adopt .adopt-info-orang:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.2))), url(../images/orang.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/orang.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/orang.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)), url(../images/orang.jpg); }
+        .adopt-wrapper .adopt .adopt-info-orang:hover h3 {
+          display: block; }
+    .adopt-wrapper .adopt .adopt-info-cgorilla {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/cross-gor.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cross-gor.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cross-gor.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cross-gor.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .adopt-wrapper .adopt .adopt-info-cgorilla h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .adopt-wrapper .adopt .adopt-info-cgorilla h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: white; }
+      .adopt-wrapper .adopt .adopt-info-cgorilla:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.2))), url(../images/cross-gor.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/cross-gor.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/cross-gor.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)), url(../images/cross-gor.jpg); }
+        .adopt-wrapper .adopt .adopt-info-cgorilla:hover h3 {
+          display: block; }
+    .adopt-wrapper .adopt .adopt-info-egorilla {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/eastern-gor.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/eastern-gor.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/eastern-gor.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/eastern-gor.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .adopt-wrapper .adopt .adopt-info-egorilla h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .adopt-wrapper .adopt .adopt-info-egorilla h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: white; }
+      .adopt-wrapper .adopt .adopt-info-egorilla:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.2))), url(../images/eastern-gor.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/eastern-gor.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/eastern-gor.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)), url(../images/eastern-gor.jpg); }
+        .adopt-wrapper .adopt .adopt-info-egorilla:hover h3 {
+          display: block; }
+    .adopt-wrapper .adopt .adopt-info-turtle {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/hawk.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hawk.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hawk.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hawk.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .adopt-wrapper .adopt .adopt-info-turtle h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .adopt-wrapper .adopt .adopt-info-turtle h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: white; }
+      .adopt-wrapper .adopt .adopt-info-turtle:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.2))), url(../images/hawk.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/hawk.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.2)), url(../images/hawk.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)), url(../images/hawk.jpg); }
+        .adopt-wrapper .adopt .adopt-info-turtle:hover h3 {
+          display: block; }
+
+.species-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cabin", sans-serif; }
+  .species-wrapper h1 {
+    font-family: "Courgette", cursive;
+    margin-top: 100px;
+    font-size: 500%;
+    margin-bottom: 100px; }
+  .species-wrapper .species {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    min-height: 100%;
+    margin-top: 25px; }
+    .species-wrapper .species .species-image-amur {
+      border-radius: 5px;
+      width: 600px;
+      height: 600px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/amur.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/amur.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/amur.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/amur.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .species-wrapper .species .species-image-rhino {
+      border-radius: 5px;
+      width: 600px;
+      height: 600px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/rhino.jfif);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/rhino.jfif);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/rhino.jfif);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/rhino.jfif);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .species-wrapper .species .species-image-orang {
+      border-radius: 5px;
+      width: 600px;
+      height: 600px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/orang.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/orang.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/orang.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/orang.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .species-wrapper .species .species-image-cgorilla {
+      border-radius: 5px;
+      width: 600px;
+      height: 600px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/cross-gor.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/cross-gor.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/cross-gor.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/cross-gor.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .species-wrapper .species .species-image-egorilla {
+      border-radius: 5px;
+      width: 600px;
+      height: 600px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/eastern-gor.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/eastern-gor.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/eastern-gor.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/eastern-gor.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .species-wrapper .species .species-image-turtle {
+      border-radius: 5px;
+      width: 600px;
+      height: 600px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/hawks.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hawks.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hawks.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/hawks.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .species-wrapper .species .species-info {
+      width: 50%;
+      height: 80%;
+      margin-left: 15px;
+      font-size: 25px;
+      margin-top: 50px; }
+      .species-wrapper .species .species-info h1 {
+        margin-bottom: 25px;
+        font-size: 250%; }
+      .species-wrapper .species .species-info h2 {
+        font-size: 150%;
+        font-family: "Courgette", cursive; }
+
+@media (max-width: 600px) {
+  .species-wrapper .species .species-info {
+    margin-top: 10px;
+    margin-bottom: 100px;
+    height: 100%; } }
+
+.resource-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cabin", sans-serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .resource-wrapper h1 {
+    margin-top: 150px;
+    color: black;
+    font-size: 550%;
+    font-family: "Courgette", cursive; }
+  .resource-wrapper h2 {
+    color: black;
+    font-size: 400%;
+    font-family: "Courgette", cursive; }
+  .resource-wrapper .resource {
+    min-height: 900px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    color: white; }
+    .resource-wrapper .resource .image-holder {
+      min-height: 900px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: "Cabin", sans-serif;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .resource-wrapper .resource .image-holder h3 {
+        color: black;
+        font-size: 250%; }
+      .resource-wrapper .resource .image-holder p {
+        color: black;
+        font-size: 25px; }
+      .resource-wrapper .resource .image-holder .partner-image {
+        margin-bottom: 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        width: 350px;
+        min-height: 350px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/partnership.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/partnership.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/partnership.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/partnership.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex; }
+    .resource-wrapper .resource .image-holder {
+      min-height: 900px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: "Cabin", sans-serif;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .resource-wrapper .resource .image-holder h3 {
+        color: black;
+        font-size: 250%; }
+      .resource-wrapper .resource .image-holder p {
+        color: black;
+        font-size: 25px; }
+      .resource-wrapper .resource .image-holder .adopt-image {
+        margin-bottom: 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        width: 350px;
+        min-height: 350px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/adopt.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/adopt.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/adopt.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/adopt.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex; }
+    .resource-wrapper .resource .image-holder {
+      min-height: 900px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      font-family: "Cabin", sans-serif;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .resource-wrapper .resource .image-holder h3 {
+        color: black;
+        font-size: 250%; }
+      .resource-wrapper .resource .image-holder p {
+        width: 300px;
+        color: black;
+        font-size: 25px; }
+      .resource-wrapper .resource .image-holder .donate-image {
+        margin-bottom: 30px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+        width: 350px;
+        min-height: 350px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/donat.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/donat.jpg);
+        background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/donat.jpg);
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/donat.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex; }
+
+.focus-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cabin", sans-serif;
+  margin-bottom: 10px; }
+  .focus-wrapper h1 {
+    font-family: "Courgette", cursive;
+    font-size: 500%; }
+  .focus-wrapper h2 {
+    margin-bottom: 25px; }
+  .focus-wrapper .focus {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    min-height: 100%;
+    margin-top: 25px; }
+    .focus-wrapper .focus a {
+      text-decoration: none; }
+    .focus-wrapper .focus .focus-info-food {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/food.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/food.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/food.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/food.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .focus-wrapper .focus .focus-info-food h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .focus-wrapper .focus .focus-info-food h3,
+      .focus-wrapper .focus .focus-info-food h4 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: black;
+        text-align: center; }
+      .focus-wrapper .focus .focus-info-food:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.3))), url(../images/food.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/food.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/food.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)), url(../images/food.jpg); }
+        .focus-wrapper .focus .focus-info-food:hover h3 {
+          display: block; }
+        .focus-wrapper .focus .focus-info-food:hover h2 {
+          color: black; }
+    .focus-wrapper .focus .focus-info-climate {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/climate.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/climate.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/climate.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/climate.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .focus-wrapper .focus .focus-info-climate h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .focus-wrapper .focus .focus-info-climate h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: black;
+        text-align: center; }
+      .focus-wrapper .focus .focus-info-climate:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.3))), url(../images/climate.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/climate.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/climate.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)), url(../images/climate.jpg); }
+        .focus-wrapper .focus .focus-info-climate:hover h3 {
+          display: block; }
+        .focus-wrapper .focus .focus-info-climate:hover h2 {
+          color: black; }
+    .focus-wrapper .focus .focus-info-water {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/water.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/water.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/water.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/water.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .focus-wrapper .focus .focus-info-water h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .focus-wrapper .focus .focus-info-water h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: black;
+        text-align: center; }
+      .focus-wrapper .focus .focus-info-water:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.3))), url(../images/water.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/water.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/water.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)), url(../images/water.jpg); }
+        .focus-wrapper .focus .focus-info-water:hover h3 {
+          display: block; }
+        .focus-wrapper .focus .focus-info-water:hover h2 {
+          color: black; }
+    .focus-wrapper .focus .focus-info-wildlife {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/wildlife.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/wildlife.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/wildlife.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/wildlife.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .focus-wrapper .focus .focus-info-wildlife h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .focus-wrapper .focus .focus-info-wildlife h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: black;
+        text-align: center; }
+      .focus-wrapper .focus .focus-info-wildlife:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.3))), url(../images/wildlife.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/wildlife.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/wildlife.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)), url(../images/wildlife.jpg); }
+        .focus-wrapper .focus .focus-info-wildlife:hover h3 {
+          display: block; }
+        .focus-wrapper .focus .focus-info-wildlife:hover h2 {
+          color: black; }
+    .focus-wrapper .focus .focus-info-forests {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/forest.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/forest.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/forest.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/forest.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .focus-wrapper .focus .focus-info-forests h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .focus-wrapper .focus .focus-info-forests h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: black;
+        text-align: center; }
+      .focus-wrapper .focus .focus-info-forests:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.3))), url(../images/forest.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/forest.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/forest.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)), url(../images/forest.jpg); }
+        .focus-wrapper .focus .focus-info-forests:hover h3 {
+          display: block; }
+        .focus-wrapper .focus .focus-info-forests:hover h2 {
+          color: black; }
+    .focus-wrapper .focus .focus-info-oceans {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url(../images/oceans.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/oceans.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/oceans.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/oceans.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: right;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .focus-wrapper .focus .focus-info-oceans h2 {
+        color: white;
+        text-decoration: none;
+        font-family: "Cabin", sans-serif; }
+      .focus-wrapper .focus .focus-info-oceans h3 {
+        font-family: "Cabin", sans-serif;
+        display: none;
+        color: black;
+        text-align: center; }
+      .focus-wrapper .focus .focus-info-oceans:hover {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(117, 255, 152, 0.3))), url(../images/oceans.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/oceans.jpg);
+        background-image: -o-linear-gradient(left, rgba(117, 255, 152, 0.3)), url(../images/oceans.jpg);
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)), url(../images/oceans.jpg); }
+        .focus-wrapper .focus .focus-info-oceans:hover h3 {
+          display: block; }
+        .focus-wrapper .focus .focus-info-oceans:hover h2 {
+          color: black; }

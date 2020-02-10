@@ -1,0 +1,294 @@
+.adopt-wrapper {
+  width: 100%;
+  min-height: 100%;
+  //margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: $cabin;
+  margin-bottom: 10px;
+
+  h1 {
+    font-family: $cour;
+    font-size: 500%;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  .adopt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    min-height: 100%;
+    margin-top: 25px;
+
+    a {
+      text-decoration: none;
+    }
+
+    //amur
+    .adopt-info-amur {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/amur.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3,
+      h4 {
+        font-family: $cabin;
+        display: none;
+        color: white;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)),
+          url(../images/amur.jpg);
+        h3,
+        h4 {
+          display: block;
+        }
+      }
+    }
+    //rhino
+    .adopt-info-rhino {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/rhino.jfif);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: white;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)),
+          url(../images/rhino.jfif);
+        h3 {
+          display: block;
+        }
+      }
+    }
+
+    //orangutan
+    .adopt-info-orang {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/orang.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: white;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)),
+          url(../images/orang.jpg);
+        h3 {
+          display: block;
+        }
+      }
+    }
+
+    //c gorilla
+    .adopt-info-cgorilla {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/cross-gor.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: white;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)),
+          url(../images/cross-gor.jpg);
+        h3 {
+          display: block;
+        }
+      }
+    }
+
+    //e gorilla
+    .adopt-info-egorilla {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/eastern-gor.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: white;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)),
+          url(../images/eastern-gor.jpg);
+        h3 {
+          display: block;
+        }
+      }
+    }
+
+    //turtle
+    .adopt-info-turtle {
+      width: 350px;
+      height: 350px;
+      border-radius: 5px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/hawk.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: white;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.2)),
+          url(../images/hawk.jpg);
+        h3 {
+          display: block;
+        }
+      }
+    }
+  }
+}

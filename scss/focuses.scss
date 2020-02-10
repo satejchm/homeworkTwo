@@ -1,0 +1,320 @@
+.focus-wrapper {
+  width: 100%;
+  min-height: 100%;
+  //margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: $cabin;
+  margin-bottom: 10px;
+
+  h1 {
+    font-family: $cour;
+    font-size: 500%;
+  }
+
+  h2 {
+    margin-bottom: 25px;
+  }
+
+  .focus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    min-height: 100%;
+    margin-top: 25px;
+
+    a {
+      text-decoration: none;
+    }
+
+    //amur
+    .focus-info-food {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/food.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3,
+      h4 {
+        font-family: $cabin;
+        display: none;
+        color: black;
+        text-align: center;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)),
+          url(../images/food.jpg);
+        h3 {
+          display: block;
+        }
+
+        h2 {
+          color: black;
+        }
+      }
+    }
+    //rhino
+    .focus-info-climate {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/climate.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: black;
+        text-align: center;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)),
+          url(../images/climate.jpg);
+        h3 {
+          display: block;
+        }
+        h2 {
+          color: black;
+        }
+      }
+    }
+
+    //orangutan
+    .focus-info-water {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/water.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: black;
+        text-align: center;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)),
+          url(../images/water.jpg);
+        h3 {
+          display: block;
+        }
+        h2 {
+          color: black;
+        }
+      }
+    }
+
+    //c gorilla
+    .focus-info-wildlife {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/wildlife.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: black;
+        text-align: center;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)),
+          url(../images/wildlife.jpg);
+        h3 {
+          display: block;
+        }
+
+        h2 {
+          color: black;
+        }
+      }
+    }
+
+    //e gorilla
+    .focus-info-forests {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/forest.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: black;
+        text-align: center;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)),
+          url(../images/forest.jpg);
+        h3 {
+          display: block;
+        }
+
+        h2 {
+          color: black;
+        }
+      }
+    }
+
+    //turtle
+    .focus-info-oceans {
+      width: 350px;
+      height: 350px;
+      border-radius: 300px;
+      margin-bottom: 30px;
+      margin-right: 20px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.5),
+          rgba(0, 0, 0, 0.5)
+        ),
+        url(../images/oceans.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      justify-content: center;
+      display: flex;
+      align-items: center;
+      text-align: right;
+      flex-direction: column;
+
+      h2 {
+        color: white;
+        text-decoration: none;
+        font-family: $cabin;
+      }
+
+      h3 {
+        font-family: $cabin;
+        display: none;
+        color: black;
+        text-align: center;
+      }
+
+      &:hover {
+        background-image: linear-gradient(to right, rgba(117, 255, 152, 0.3)),
+          url(../images/oceans.jpg);
+        h3 {
+          display: block;
+        }
+        h2 {
+          color: black;
+        }
+      }
+    }
+  }
+}
