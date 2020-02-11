@@ -1289,3 +1289,156 @@ nav {
           display: block; }
         .focus-wrapper .focus .focus-info-oceans:hover h2 {
           color: black; }
+
+.email-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cabin", sans-serif; }
+  .email-wrapper .email {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    min-height: 600px;
+    margin-top: 25px; }
+    .email-wrapper .email h1 {
+      font-size: 500%;
+      font-family: "Courgette", cursive; }
+    .email-wrapper .email .input {
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      text-align: center;
+      font-size: 35px; }
+      .email-wrapper .email .input .namespace {
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        width: 60%;
+        height: 50px;
+        margin-left: 10px; }
+  .email-wrapper .button-email {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #129b12;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 35px;
+    font-size: 30px;
+    text-decoration: none; }
+    .email-wrapper .button-email a {
+      text-decoration: none; }
+      .email-wrapper .button-email a:hover {
+        color: white; }
+
+.resource-bottom-wrapper {
+  width: 100%;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: "Cabin", sans-serif; }
+  .resource-bottom-wrapper h1 {
+    font-family: "Courgette", cursive;
+    margin-top: 100px;
+    font-size: 500%;
+    margin-bottom: 100px; }
+  .resource-bottom-wrapper .resources {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 80%;
+    min-height: 100%;
+    margin-top: 25px; }
+    .resource-bottom-wrapper .resources .resources-image {
+      border-radius: 5px;
+      width: 600px;
+      height: 600px;
+      background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../images/resources.jpg);
+      background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/resources.jpg);
+      background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/resources.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/resources.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+    .resource-bottom-wrapper .resources .resources-info {
+      width: 50%;
+      height: 80%;
+      margin-left: 15px;
+      font-size: 25px;
+      margin-top: 50px; }
+      .resource-bottom-wrapper .resources .resources-info h1 {
+        margin-bottom: 25px;
+        font-size: 250%; }
+      .resource-bottom-wrapper .resources .resources-info h2 {
+        font-size: 150%;
+        font-family: "Courgette", cursive; }

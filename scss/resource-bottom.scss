@@ -1,0 +1,63 @@
+.resource-bottom-wrapper {
+  width: 100%;
+  min-height: 100%;
+  //margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $cabin;
+
+  h1 {
+    font-family: $cour;
+    margin-top: 100px;
+    font-size: 500%;
+    margin-bottom: 100px;
+  }
+
+  .resources {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    min-height: 100%;
+    margin-top: 25px;
+    //amur leopard
+
+    .resources-image {
+      border-radius: 5px;
+      width: 600px;
+      height: 600px;
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.2),
+          rgba(0, 0, 0, 0.2)
+        ),
+        url(../images/resources.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+    }
+
+    .resources-info {
+      width: 50%;
+      height: 80%;
+      margin-left: 15px;
+      font-size: 25px;
+      margin-top: 50px;
+
+      h1 {
+        margin-bottom: 25px;
+        font-size: 250%;
+      }
+
+      h2 {
+        font-size: 150%;
+        font-family: $cour;
+      }
+    }
+  }
+}
